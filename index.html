@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<body onload = "initialize();">
+    <div class="main">
+    <h1>SHOP LIFT UP Inc.</h1>
+    <ol id="grocery">Grocery List
+    </ol>
+    </div>
+    
+    <div id="add">
+    Grocery Name: <input type="text" id="item" name="grocItem">  <button onclick="add();">Add Grocery</button>
+    <br>
+    </div>
+    
+    Grocery Item Number(You wish to Move): 
+    <input type="text" id="itemNum">
+    <input type="image" onclick="moveUp();"src="up.png" />   <input type="image" onclick="moveDown();"src="down.png" />   
+    <input type="image" src="trash.png" onclick="remove();">
+
+</body>
+</html>
